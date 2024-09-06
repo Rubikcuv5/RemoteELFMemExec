@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {
-        fprintf(stderr, "Uso: %s <Url> <key> <name_process>\n", argv[0]);
+        fprintf(stderr, "Uso: %s <Url> <Key> <Alias_process>\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
