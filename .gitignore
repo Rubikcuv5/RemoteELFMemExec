@@ -1,0 +1,9 @@
+# Test directories and files #
+##############################
+/test/
+
+
+
+# IDE and editor settings #
+############################
+.vscode/
