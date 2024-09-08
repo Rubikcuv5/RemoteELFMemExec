@@ -6,7 +6,18 @@
 
 > **⚠️ Warning:** On legacy systems, such as CentOS 6, it is not possible to execute ELF files directly in memory due to the lack of support for the `memfd_create` function, introduced in Linux 3.17. In these environments, the process downloads the encrypted ELF file to disk, decrypts it, executes it, and then deletes it.
 
+
+
 ## Compilation
+
+### Requirements
+
+Before compiling, ensure you have the following packages installed:
+
+- `gcc`
+- `make`
+- `libcurl4-openssl-dev`
+
 
 ### Debug Mode
 ```bash
