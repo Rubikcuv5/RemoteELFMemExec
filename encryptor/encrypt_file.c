@@ -52,7 +52,6 @@ void encrypt_file(const char *file_path, const char *key) {
     fwrite(file_content, 1, file_size, output_file);
     fclose(output_file);
 
-    // Free allocated memory
     free(file_content);
 
     printf("File encrypted successfully: %s\n", output_file_path);
