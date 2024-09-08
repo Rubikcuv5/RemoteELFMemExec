@@ -1,5 +1,7 @@
-
-# RemoteELFMemExec
+<h1 align="center">
+	<img src="https://github.com/user-attachments/assets/e4ebb8a9-9b09-43d3-b7a9-ba7c4a877631"width="200px"><br>
+    RemoteELFMemExec
+</h1>
 
 **RemoteELFMemExec** is a tool designed to download, decrypt, and execute ELF binaries directly in memory from a remote URL. This utility enables the execution of executable files without writing them to disk, leveraging memory-based execution for enhanced stealth and efficiency. The tool uses XOR encryption to securely decrypt the ELF binary before execution.
 
