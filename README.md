@@ -5,7 +5,7 @@
 
 **RemoteELFMemExec** is a tool designed to download, decrypt, and execute ELF binaries directly in memory from a remote URL. This utility enables the execution of executable files without writing them to disk, leveraging memory-based execution for enhanced stealth and efficiency. The tool uses XOR encryption to securely decrypt the ELF binary before execution.
 
-Additionally, RemoteELFMemExec allows specifying a process name similar to `exec -a`, which facilitates process camouflage and helps it appear as a legitimate process.
+Additionally, **RemoteELFMemExec** allows specifying a process name similar to `exec -a`, which facilitates process camouflage and helps it appear as a legitimate process.
 
 
 > **⚠️ Warning:** On legacy systems, such as CentOS 6, it is not possible to execute ELF files directly in memory due to the lack of support for the `memfd_create` function, introduced in Linux 3.17. In these environments, the process downloads the encrypted ELF file to disk, decrypts it, executes it, and then deletes it.
