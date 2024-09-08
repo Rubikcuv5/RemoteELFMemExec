@@ -14,6 +14,7 @@
 make
 
 ```
+**⚠️ Warning:** To enable static compilation, you must compile `lcurl` as a static library.
 ### Static Compilation
 ```bash
 
